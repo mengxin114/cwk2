@@ -1,0 +1,4 @@
+﻿  maze.c
+D:\learning\y2s2\Programming Project\code\cwk2\maze\maze.c(24,10): warning C4013: “strlen”未定义；假设外部返回 int
+D:\learning\y2s2\Programming Project\code\cwk2\maze\maze.c(16,6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  maze.vcxproj -> D:\learning\y2s2\Programming Project\code\cwk2\maze\x64\Debug\maze.exe

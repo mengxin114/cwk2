@@ -5,17 +5,21 @@ int main(int argc, char* argv[])
 	load(argv[1]);
 	while (!win)
 	{
-		in = getInput();
+		scanf(" %c", &in);
+		in = getInput(in);
 		switch (in)
 		{
 		case '\0':
 			printf("wrong input");
 			break;
 		case 'M':
+			printMap();
 			break;
 		case 'Q':
+			exit(0);
 			break;
 		default:
+			move(in);
 			break;
 		}
 	}
@@ -52,21 +56,24 @@ void load(char fileName[])
 	for (int j = 0;j < height; j++)
 	{
 		fgets(buf, LINE_MAX, f);
-		checkData(buf);
+		checkData(buf,j);
 		for (int i = 0; i < width; i++) {
 			map[j][i] = buf[i];
 		}
 	}
 	printMap();
-	printf("%c", map[height - 1][width - 1]);
-	printf("%c", map[height - 2][width - 1]);
+	//printf("%c", map[height - 1][width - 1]);
+	//printf("%c", map[height - 2][width - 1]);
 }
 
 void printMap()
 {
 	for (int j = 0; j < height; j++) {
 		for (int i = 0; i < width; i++) {
-			printf("%c", map[j][i]);
+			if (j == y & i == x)
+				printf("X");
+			else
+				printf("%c", map[j][i]);
 		}
 		printf("\n");
 	}
@@ -88,7 +95,7 @@ void creatMaze()
 	}
 }
 
-void checkData(char buf[])
+void checkData(char buf[],int height)
 {
 	if (strlen(buf) - 1 != width)
 	{
@@ -97,7 +104,13 @@ void checkData(char buf[])
 	}
 	for (int i = 0; i < width; i++)
 	{
-		if (buf[i] == 'S' || buf[i] == 'E')
+		if (buf[i] == 'S')
+		{
+			y = height;
+			x = i;
+			count += 1;
+		}
+		else if (buf[i] == 'E')
 		{
 			count += 1;
 		}
@@ -119,10 +132,8 @@ void checkData(char buf[])
 }
 
 
-char getInput()
+char getInput(char input)
 {
-	char input;
-	input = scanf("%c", &input);
 	input = toupper(input);
 	char a[6] = { 'W', 'A', 'S', 'D', 'Q','M' };
 	for (int i = 0; i < sizeof(a) / sizeof(a[0]); i++)
@@ -133,4 +144,51 @@ char getInput()
 		}
 	}
 	return '\0';
+}
+
+void move(char input)
+{
+	for (int i = 0; i < 4; i++) {
+		if (direction[i].tag == input) {
+			if (checkWrongway(direction[i].x, direction[i].y) == 1)
+			{
+				x = x + direction[i].x;
+				y = y + direction[i].y;
+			}
+			else
+			{
+				printf("can not pass");
+			}
+		}
+	}
+	checkWin();
+	//printf("%d,%d", y, x);
+}
+
+int checkWrongway(int dx, int dy)
+{
+	if (x + dx < 0 || x + dx > width)
+	{
+		return 0;
+	}
+	if (y + dy < 0 || y + dy > height)
+	{
+		return 0;
+	}
+	if (map[y + dy][x + dx] == '#')
+	{
+		return 0;
+	}
+	return 1;
+}
+
+void checkWin()
+{
+	if (map[y][x] == 'E')
+	{
+		printf("win");
+		win = 1;
+	}
+	else
+		win = 0;
 }

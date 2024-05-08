@@ -22,19 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "map.txt",
-              "DocumentMoniker": "D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\map.txt",
-              "RelativeDocumentMoniker": "map.txt",
-              "ToolTip": "D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\map.txt",
-              "RelativeToolTip": "map.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-07T08:30:54.83Z",
+              "DocumentIndex": 0,
+              "Title": "maze.c",
+              "DocumentMoniker": "D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\maze.c",
+              "RelativeDocumentMoniker": "maze.c",
+              "ToolTip": "D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\maze.c",
+              "RelativeToolTip": "maze.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-07T08:22:03.776Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -45,22 +46,23 @@
               "RelativeDocumentMoniker": "maze.h",
               "ToolTip": "D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\maze.h",
               "RelativeToolTip": "maze.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-07T08:22:03.204Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "maze.c",
-              "DocumentMoniker": "D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\maze.c",
-              "RelativeDocumentMoniker": "maze.c",
-              "ToolTip": "D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\maze.c",
-              "RelativeToolTip": "maze.c",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-07T08:22:03.776Z",
+              "DocumentIndex": 2,
+              "Title": "map.txt",
+              "DocumentMoniker": "D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\map.txt",
+              "RelativeDocumentMoniker": "map.txt",
+              "ToolTip": "D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\map.txt",
+              "RelativeToolTip": "map.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-07T08:30:54.83Z",
               "EditorCaption": ""
             }
           ]

@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E57EA6B7-849C-4825-BCF3-A77D6C07CB01}|maze.vcxproj|D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\maze.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E57EA6B7-849C-4825-BCF3-A77D6C07CB01}|maze.vcxproj|solutionrelative:maze.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E57EA6B7-849C-4825-BCF3-A77D6C07CB01}|maze.vcxproj|D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\map.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E57EA6B7-849C-4825-BCF3-A77D6C07CB01}|maze.vcxproj|solutionrelative:map.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +28,7 @@
               "RelativeDocumentMoniker": "maze.c",
               "ToolTip": "D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\maze.c",
               "RelativeToolTip": "maze.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAAANUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-05-07T08:22:03.776Z",
               "IsPinned": true,
@@ -46,23 +42,10 @@
               "RelativeDocumentMoniker": "maze.h",
               "ToolTip": "D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\maze.h",
               "RelativeToolTip": "maze.h",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-07T08:22:03.204Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "map.txt",
-              "DocumentMoniker": "D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\map.txt",
-              "RelativeDocumentMoniker": "map.txt",
-              "ToolTip": "D:\\learning\\y2s2\\Programming Project\\code\\cwk2\\maze\\map.txt",
-              "RelativeToolTip": "map.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-07T08:30:54.83Z",
               "EditorCaption": ""
             }
           ]
